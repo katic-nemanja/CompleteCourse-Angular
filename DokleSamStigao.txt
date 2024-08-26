@@ -1,0 +1,7 @@
+9 - Module Introduction - gotov
+10 - A New Starting Project Analyzing The Project Structure - gotov
+11 - Understanding Components How Content Ends Up On The Screen - gotov
+12 - Creating a First Custom Component - gotov
+13 - Optional JavaScript Refresher Classes Properties More.html - procitao
+14 - Configuring the Custom Component - gotov
+15 - Using the Custom Component - gotov
