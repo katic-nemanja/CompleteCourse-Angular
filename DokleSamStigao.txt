@@ -5,3 +5,19 @@
 13 - Optional JavaScript Refresher Classes Properties More.html - procitao
 14 - Configuring the Custom Component - gotov
 15 - Using the Custom Component - gotov
+16 - Styling the Header Component Adding An Image - gotovo
+17 - Managing Creating Components with the Angular CLI - gotovo
+18 - Styling Using Our Next Custom Component - gotovo
+19 - Preparing User Data To Output Dynamic Content - gotovo
+20 - Storing Data in a Component Class - gotovo
+21 - Outputting Dynamic Content with String Interpolation - gotovo
+22 - Property Binding Outputting Computed Values - gotovo
+24 - Using Getters For Computed Values - gotovo
+25 - Listening to Events with Event Binding - gotovo
+26 - Managing State Changing Data - gotovo
+27 - A Look Behind The Scenes Of Angulars Change Detection Mechanism - gotovo
+28 - Introducing Signals - gotovo
+29 - We Need More Flexible Components - gotovo
+30 - Defining Component Inputs - gotovo
+31 - Required Optional Inputs - gotovo
+32 - Using Signal Inputs - gotovo
