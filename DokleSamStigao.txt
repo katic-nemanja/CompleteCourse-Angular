@@ -21,3 +21,10 @@
 30 - Defining Component Inputs - gotovo
 31 - Required Optional Inputs - gotovo
 32 - Using Signal Inputs - gotovo
+33 - We Need Custom Events - gotovo
+34 - Working with Outputs Emitting Data - gotovo
+35 - Using the output Function - gotovo
+36 - Adding Extra Type Information To EventEmitter - gotovo
+37 - Exercise Create a Configurable Component - gotovo
+38 - TypeScript Working With Potentially Undefined Values Union Types - gotovo
+39 - Accepting Objects As Inputs Adding Appropriate Typings - gotovo

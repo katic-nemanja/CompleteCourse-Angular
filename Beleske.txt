@@ -1,8 +1,20 @@
 ng generate component <ime komponente> - kreira novu Angular komponentu
 ng g c <ime komponente> - skracena verzija - kreira novu Angular komponentu
+ng generate component <ime komponente> --skip-tests - ovo je varijanta u kojoj se kreira komponenta bez kreiranja fajla za automatski test
 
 CTRL + Space - IDE ce dati predloge automatskih funkcija
 
 @Input() avatar!:string; - uzvicnik govori da znamo da varijabla nema vrednost, ali da ce je dobiti u nekom trenutku
+@Input({required:true}) <ime varijable>?:string; - ! kaze Typescriptu da se nikada nece desiti da varijabla ima vrednost UNDEFINED
+@Input({required:true}) <ime varijable>?:string; - ? kaze Typescriptu da ova varijabla moze, a i ne mora imati vrednost i da sam sa tim upoznat
+
+<ime varijable>?.name - ovo kaze Typescriptu da ako je varijabla definisana (ima vrednost), pristupi property-ju name, a ako nije definisana, koristi UNDEFINED
 
 @Input({required:true}) avatar!:string; - required:true ce svaki put u PARENT klasi ispaliti gresku ako zaboravimo da inicijalizujemo vrednost varijable "avatar"
+
+@Input() <ime varijable>:string | undefined; - ovo je kod koji ce prihvatiti svaku vrednost varijable, jer ili ce biti tipa STRING ili UNDEFINED (ova vrednost je samo kada nema vrednost)
+
+@Output() select = new EventEmitter<string>(); <string> predstavlja genericki tip podatka koji mozemo da prosledimo EventEmmiteru da bi samo takav podatak bio moguc za emitovanje
+
+<app-user [avatar]="userList[0].avatar" [name]="userList[0].name" [id]="userList[0].id"
+        (select)="onSelectUser($event)" /> - $event objekat je objekat koji moze da nosi podatak koji @Output() <varijabla> emituje
