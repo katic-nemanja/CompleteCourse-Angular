@@ -13,15 +13,15 @@ import { TasksComponent } from './tasks/tasks.component';
 })
 export class AppComponent {
   userList = DUMMY_USERS;
-  selecteUserId!:any;
+  selectedUserId!:string;
   imeKorisnika!:any;
 
   get selectedUser(){
-    return this.userList.find(user=>user.id ===this.selecteUserId)?.name!;
+    return this.userList.find(user=>user.id ===this.selectedUserId);
   }
 
   onClickedListItem(id:string){
-    this.selecteUserId = id;
+    this.selectedUserId = id;
     // this.ImeZaTransport = this.userList.find(user=>user.id===id)?.name!;
   }
 }

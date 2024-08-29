@@ -1,1 +1,25 @@
-<p>{{ imeZaPrikaz}}</p>
+<section id="tasks">
+    <header>
+        <h2>{{ imeZaPrikaz}}'s Tasks</h2>
+        <menu>
+            <button>Add Task</button>
+        </menu>
+    </header>
+    <ul>
+        <li>
+            @if (zadatakUsera.length>0) {
+            @for (item of zadatakUsera; track item.id) {
+            <ul>
+                <li>
+                    <app-task [zadatak]="item" />
+                </li>
+            </ul>
+            }
+
+            }
+            @else {
+            <h3>Ovaj korisnik nema definisane zadatke!!!</h3>
+            }
+        </li>
+    </ul>
+</section>

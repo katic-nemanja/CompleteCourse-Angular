@@ -1,24 +1,17 @@
 <app-header></app-header>
 <main>
   <ul id="users">
-    <li>
-      <app-user [user]="userList[0]" (select)="onClickedListItem($event)" />
-    </li>
-    <li>
-      <app-user [user]="userList[1]" (select)="onClickedListItem($event)" />
-    </li>
-    <li>
-      <app-user [user]="userList[2]" (select)="onClickedListItem($event)" />
-    </li>
-    <li>
-      <app-user [user]="userList[3]" (select)="onClickedListItem($event)" />
-    </li>
-    <li>
-      <app-user [user]="userList[4]" (select)="onClickedListItem($event)" />
-    </li>
-    <li>
-      <app-user [user]="userList[5]" (select)="onClickedListItem($event)" />
-    </li>
+    @for (item of userList; track $index) {
+      <li>
+        <app-user [user]="item" (select)="onClickedListItem($event)" />
+      </li>
+    }
   </ul>
-  <app-tasks [imeZaPrikaz]="selectedUser" />
+  @if (selectedUser) {
+    <app-tasks [id]="selectedUserId" [imeZaPrikaz]="selectedUser.name" />
+  }
+  @else {
+    <p id="fallback">Select a user to look into their tasks</p>
+  } 
+  
 </main>
