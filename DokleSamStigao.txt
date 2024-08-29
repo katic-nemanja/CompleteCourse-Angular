@@ -28,3 +28,5 @@
 37 - Exercise Create a Configurable Component - gotovo
 38 - TypeScript Working With Potentially Undefined Values Union Types - gotovo
 39 - Accepting Objects As Inputs Adding Appropriate Typings - gotovo
+40 - TypeScript Type Aliases Interfaces - gotovo
+41 - Outputting List Content
