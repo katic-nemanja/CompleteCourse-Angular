@@ -1,12 +1,5 @@
 import { Component, Input } from '@angular/core';
-
-interface Zadatak {
-  id: string;
-  userId: string;
-  title: string;
-  summary:string;
-  dueDate: string;
-}
+import { Task } from './task.model';
 
 
 @Component({
@@ -17,5 +10,5 @@ interface Zadatak {
   styleUrl: './task.component.css'
 })
 export class TaskComponent {
-  @Input({ required: true }) zadatak!: Zadatak;
+  @Input({ required: true }) zadatak!: Task;
 }
