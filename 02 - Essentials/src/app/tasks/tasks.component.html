@@ -1,5 +1,5 @@
 @if (vidljivo) {
-<app-add-task [imeKorisnika]="imeZaPrikaz" (visibleOff)="onVisibleOff($event)" />
+<app-add-task [userId]="id" [imeKorisnika]="imeZaPrikaz" (visibleOff)="onVisibleOff($event)" />
 }
 
 <section id="tasks">
@@ -15,7 +15,7 @@
             @for (item of zadatakUsera; track item.id) {
             <ul>
                 <li>
-                    <app-task [zadatak]="item" (complete)="onTaskCompletion($event)" />
+                    <app-task [zadatak]="item" />
                 </li>
             </ul>
             }

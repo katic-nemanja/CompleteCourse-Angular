@@ -41,3 +41,14 @@
 50 - Creating Conditionally Rendering Another Component - gotovo
 51 - Managing The New Task Dialog - gotovo
 52 - Using Directives TwoWayBinding - gotovo
+53 - Signals TwoWayBinding - gotovo
+54 - Handling Form Submission - gotovo
+55 - Using the Submitted Data - gotovo
+56 - Content Projection with ngcontent - gotovo
+57 - Transforming Template Data with Pipes - gotovo
+58 - Getting Started with Services - gotovo
+59 - Getting Started with Dependency Injection - gotovo
+60 - More Service Usage Alternative Dependency Injection Mechanism - gotovo
+61 - Time to Practice Services - gotovo
+62 - Using localStorage for Data Storage - gotovo
+63 - Module Summary - gotovo
