@@ -14,6 +14,7 @@ import { TasksComponent } from './tasks/tasks.component';
 export class AppComponent {
   userList = DUMMY_USERS;
   selectedUserId!:string;
+  vidljivo!:boolean;
   imeKorisnika!:any;
 
   get selectedUser(){

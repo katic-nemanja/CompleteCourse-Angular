@@ -35,3 +35,9 @@
 44 - Adding More Components to the Demo App - gotovo
 45 - Outputting Userspecific Tasks - gotovo
 46 - Outputting Task Data in the Task Component - gotovo
+47 - Storing Data Models in Separate Files - gotovo
+48 - Dynamic CSS Styling with Class Bindings - gotovo
+49 - More Component Communication Deleting Tasks - gotovo
+50 - Creating Conditionally Rendering Another Component - gotovo
+51 - Managing The New Task Dialog - gotovo
+52 - Using Directives TwoWayBinding - gotovo

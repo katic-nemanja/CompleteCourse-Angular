@@ -1,9 +1,9 @@
 <app-header></app-header>
 <main>
   <ul id="users">
-    @for (item of userList; track $index) {
+    @for (item of userList; track item.id) {
       <li>
-        <app-user [user]="item" (select)="onClickedListItem($event)" />
+        <app-user [selected]="selectedUserId===item.id" [user]="item" (select)="onClickedListItem($event)" />
       </li>
     }
   </ul>
@@ -12,6 +12,6 @@
   }
   @else {
     <p id="fallback">Select a user to look into their tasks</p>
-  } 
+  }
   
 </main>
