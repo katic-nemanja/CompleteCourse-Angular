@@ -52,3 +52,8 @@
 61 - Time to Practice Services - gotovo
 62 - Using localStorage for Data Storage - gotovo
 63 - Module Summary - gotovo
+
+03 - Working with modules
+
+64 - Module Introduction - gotovo
+65 - A First Introduction To Angular Modules NgModule - gotovo
