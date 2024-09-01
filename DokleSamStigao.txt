@@ -1,10 +1,10 @@
-9 - Module Introduction - gotov
-10 - A New Starting Project Analyzing The Project Structure - gotov
-11 - Understanding Components How Content Ends Up On The Screen - gotov
-12 - Creating a First Custom Component - gotov
+9 - Module Introduction - gotovo
+10 - A New Starting Project Analyzing The Project Structure - gotovo
+11 - Understanding Components How Content Ends Up On The Screen - gotovo
+12 - Creating a First Custom Component - gotovo
 13 - Optional JavaScript Refresher Classes Properties More.html - procitao
-14 - Configuring the Custom Component - gotov
-15 - Using the Custom Component - gotov
+14 - Configuring the Custom Component - gotovo
+15 - Using the Custom Component - gotovo
 16 - Styling the Header Component Adding An Image - gotovo
 17 - Managing Creating Components with the Angular CLI - gotovo
 18 - Styling Using Our Next Custom Component - gotovo
@@ -57,3 +57,15 @@
 
 64 - Module Introduction - gotovo
 65 - A First Introduction To Angular Modules NgModule - gotovo
+66 - Creating a First Empty Module - gotovo
+67 - Bootstrapping Apps with Angular Modules - gotovo
+68 - Declaring Using Components - gotovo
+69 - A First Summary - gotovo
+70 - Migrating All Components To Use Modules - gotovo
+71 - Creating Using Shared Modules - gotovo
+72 - Creating More Complex Modulebased App Structures - gotovo
+
+
+04 - Angular Essentials Time To Practice
+
+73 - Module Introduction Starting Project
