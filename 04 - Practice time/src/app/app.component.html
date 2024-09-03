@@ -1,5 +1,15 @@
 <app-header />
 
 <main>
-    <app-user-input />
+    <app-user-input (isVisible)="isVisibleTrue($event)" (outRezultat)="izracunajRezultat($event)" />
 </main>
+
+
+@if(isResultVisible){
+<article>
+    <app-investment-results [rezultat]="rezultatZaPrikaz" />
+</article>
+}
+@else {
+<h2>Kliknite na calculate za izracunavanje interesa</h2>
+}

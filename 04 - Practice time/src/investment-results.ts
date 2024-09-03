@@ -1,9 +1,10 @@
 // Use the below code as a help
 // e.g., integrate it into a service or component
 // You may need to tweak it, depending on where and how you use it
+import { Result } from "./app/shared/result.model";
 
-function calculateInvestmentResults() {
-  const annualData = [];
+function calculateInvestmentResults(initialInvestment: number, duration: number, expectedReturn: number, annualInvestment: number) {
+  let annualData !: Array<Result>;
   let investmentValue = initialInvestment;
 
   for (let i = 0; i < duration; i++) {
