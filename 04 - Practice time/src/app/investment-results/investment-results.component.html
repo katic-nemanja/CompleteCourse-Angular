@@ -1,31 +1,42 @@
 <table>
-    <tr>
-        <th>
-            Year
-        </th>
-        <th>
-            Investment value
-        </th>
-        <th>
-            Interest (Year)
-        </th>
-        <th>
-            Total interest
-        </th>
-        <th>
-            Invested capital
-        </th>
-    </tr>
-
-
-    @for (item of rezultat; track $index) {
+    <thead>
         <tr>
-            <app-result [rezultat]="item" />
+            <th>
+                Year
+            </th>
+            <th>
+                Investment value
+            </th>
+            <th>
+                Interest (Year)
+            </th>
+            <th>
+                Total interest
+            </th>
+            <th>
+                Invested capital
+            </th>
         </tr>
-        
-   
-
-    }
-
-
+    </thead>
+    <tbody>
+        @for (item of rezultat; let i = $index; track i) {
+            <tr>
+                <td>
+                    {{item.year}}
+                </td>
+                <td>
+                    {{item.totalAmountInvested}}
+                </td>
+                <td>
+                    {{item.interest}}
+                </td>
+                <td>
+                    {{item.totalInterest}}
+                </td>
+                <td>
+                    {{item.totalAmountInvested}}
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>
