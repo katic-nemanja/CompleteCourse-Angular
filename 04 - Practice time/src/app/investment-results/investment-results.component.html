@@ -1,9 +1,31 @@
-@for (item of rezultat; track item.year) {
 <table>
     <tr>
-        <app-result [rezultat]="item" />
+        <th>
+            Year
+        </th>
+        <th>
+            Investment value
+        </th>
+        <th>
+            Interest (Year)
+        </th>
+        <th>
+            Total interest
+        </th>
+        <th>
+            Invested capital
+        </th>
     </tr>
+
+
+    @for (item of rezultat; track $index) {
+        <tr>
+            <app-result [rezultat]="item" />
+        </tr>
+        
+   
+
+    }
+
+
 </table>
-
-
-}

@@ -1,7 +1,7 @@
 import { Result } from "../shared/result.model";
 
 export function calculateInvestmentResults(initialInvestment: number, duration: number, expectedReturn: number, annualInvestment: number) {
-    let annualData !: Array<Result>;
+    let annualData : Array<Result> = [];
     let investmentValue = initialInvestment;
 
     for (let i = 0; i < duration; i++) {
@@ -19,5 +19,8 @@ export function calculateInvestmentResults(initialInvestment: number, duration: 
             totalAmountInvested: initialInvestment + annualInvestment * year,
         });
     }
+    console.log(annualData);
+    console.log(initialInvestment + duration + expectedReturn + annualInvestment);
     return annualData;
+    
 }

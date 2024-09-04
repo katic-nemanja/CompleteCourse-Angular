@@ -26,4 +26,8 @@ export class AppComponent {
   izracunajRezultat(rez: Array<Result>) {
     this.rezultatZaPrikaz = rez;
   }
+
+  get vratiRezultat(){
+    return this.rezultatZaPrikaz;
+  }
 }
