@@ -22,19 +22,19 @@
         @for (item of rezultat; let i = $index; track i) {
             <tr>
                 <td>
-                    {{item.year}}
+                    {{item.year | number:'1.0-0'}}
                 </td>
                 <td>
-                    {{item.totalAmountInvested}}
+                    {{item.totalAmountInvested | number:'1.2-2'}}
                 </td>
                 <td>
-                    {{item.interest}}
+                    {{item.interest | number:'1.2-2' }}                
                 </td>
                 <td>
-                    {{item.totalInterest}}
+                    {{item.totalInterest| number:'1.2-2'}}
                 </td>
                 <td>
-                    {{item.valueEndOfYear}}
+                    {{item.valueEndOfYear|number:'1.2-2'}}
                 </td>
             </tr>
         }

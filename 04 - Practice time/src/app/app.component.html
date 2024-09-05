@@ -4,12 +4,13 @@
     <app-user-input (isVisible)="isVisibleTrue($event)" (outRezultat)="izracunajRezultat($event)" />
 </main>
 
-
-@if(isResultVisible){
-<article>
-    <app-investment-results [rezultat]="vratiRezultat" />
-</article>
-}
-@else {
-<h2>Kliknite na calculate za izracunavanje interesa</h2>
-}
+<div class="center">
+    @if(isResultVisible){
+        <article>
+            <app-investment-results [rezultat]="vratiRezultat" />
+        </article>
+        }
+        @else {
+        <h2>Kliknite na calculate za izracunavanje interesa</h2>
+        }
+</div>
