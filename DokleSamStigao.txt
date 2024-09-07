@@ -78,3 +78,6 @@
 81 - Creating Using a Data Model - gotovo
 82 - Passing Data from Parent to Child with Inputs - gotovo
 83 - Outputting Data in a Table - gotovo
+84 - Formatting Output with a Pipe - gotovo
+85 - Using Signals Resetting The Form After Submission - gotovo
+86 - Using a Service for CrossComponent Communication

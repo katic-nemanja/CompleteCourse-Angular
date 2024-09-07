@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
 import { UserInputComponent } from './user-input/user-input.component';
 import { InvestmentResultsComponent } from './investment-results/investment-results.component';
@@ -15,17 +15,26 @@ import { InputData } from './shared/result.model';
 })
 export class AppComponent {
   isResultVisible = false;
-  rezultatZaPrikaz!: Array<Result>;
+  
+  
+  // rezultatZaPrikaz!: Array<Result>;
 
+  rezultatZaPrikaz= signal<Array<Result>|undefined>(undefined);
   isVisibleTrue(newStatus: boolean) {
     this.isResultVisible = newStatus;
   }
 
+  // klasican sistem za rad sa Input/Output varijablama 
+  // dobijamUlaz(ulaz:InputData){
+  //   this.rezultatZaPrikaz = calculateInvestmentResults(ulaz);
+  // }
+
+  // varijanta funkcije za rad sa Signalom
   dobijamUlaz(ulaz:InputData){
-    this.rezultatZaPrikaz = calculateInvestmentResults(ulaz);
+    this.rezultatZaPrikaz.set(calculateInvestmentResults(ulaz));
   }
 
   get vratiRezultat(){
-    return this.rezultatZaPrikaz;
+    return this.rezultatZaPrikaz();
   }
 }

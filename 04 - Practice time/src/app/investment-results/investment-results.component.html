@@ -5,38 +5,70 @@
                 Year
             </th>
             <th>
-                Investment value
+                Invested capital
             </th>
+
             <th>
                 Interest (Year)
             </th>
             <th>
-                Total interest
+                Investment value
             </th>
             <th>
-                Invested capital
+                Total interest
             </th>
+
+
         </tr>
     </thead>
     <tbody>
-        @for (item of rezultat; let i = $index; track i) {
-            <tr>
+        <!-- varijanta sa klasicnim Input Dekoratorom -->
+        <!-- @for (item of rezultat; let i = $index; track i; let even = $even; let odd = $odd) {
+            
+            <tr [class.even]="even" [class.odd]="odd">
                 <td>
-                    {{item.year | number:'1.0-0'}}
+                    {{item.year}}
                 </td>
                 <td>
-                    {{item.valueEndOfYear | number:'1.2-2'}}
+                    {{item.valueEndOfYear | currency:'EUR'}}
                 </td>
                 <td>
-                    {{item.interest | number:'1.2-2' }}                
+                    {{item.interest | currency:'EUR' }}                
                 </td>
                 <td>
-                    {{item.totalInterest| number:'1.2-2'}}
+                    {{item.totalInterest| currency:'EUR'}}
                 </td>
                 <td>
-                    {{item.totalAmountInvested|number:'1.2-2'}}
+                    {{item.totalAmountInvested|currency:'EUR'}}
                 </td>
             </tr>
+        
+    } -->
+
+
+        <!-- varijanta sa input funkcijom za prihvatanje vrednosti Signal varijabli -->
+        @for (item of rezultat(); let i = $index; track i; let even = $even; let odd = $odd) {
+
+        <tr [class.even]="even" [class.odd]="odd">
+            <td>
+                {{item.year}}
+            </td>
+            <td>
+                {{item.totalAmountInvested|currency:'EUR'}}
+            </td>
+
+            <td>
+                {{item.interest | currency:'EUR' }}
+            </td>
+            <td>
+                {{item.valueEndOfYear | currency:'EUR'}}
+            </td>
+
+            <td>
+                {{item.totalInterest| currency:'EUR'}}
+            </td>
+        </tr>
+
         }
     </tbody>
 </table>

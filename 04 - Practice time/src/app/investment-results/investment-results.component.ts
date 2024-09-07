@@ -1,14 +1,16 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, signal, input } from '@angular/core';
 import { Result } from '../shared/result.model';
-import { DecimalPipe } from '@angular/common';
+import { CurrencyPipe } from '@angular/common';
 
 @Component({
   selector: 'app-investment-results',
   standalone: true,
-  imports: [DecimalPipe],
+  imports: [CurrencyPipe],
   templateUrl: './investment-results.component.html',
   styleUrl: './investment-results.component.css'
 })
 export class InvestmentResultsComponent {
-  @Input({ required: true }) rezultat!: Array<Result>;
+  // @Input({ required: true }) rezultat?: Array<Result>;
+
+  rezultat = input <Array<Result>>();
 }

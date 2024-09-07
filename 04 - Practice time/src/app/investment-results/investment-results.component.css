@@ -1,3 +1,20 @@
 table, th, td {
-    border: 1px solid;
+    margin-top:25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+tbody{
+    padding:50px;
+    margin-top:25px;
+  }
+
+  .even{
+    background-color: rgb(18, 235, 152);
+    color:white;
+  }
+
+  .odd{
+    background-color: rgb(65, 141, 112);
+    color:rgb(41, 48, 45);
   }

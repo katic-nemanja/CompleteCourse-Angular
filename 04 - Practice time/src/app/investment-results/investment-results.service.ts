@@ -1,3 +1,4 @@
+import { signal } from "@angular/core";
 import { Result } from "../shared/result.model";
 import { InputData } from "../shared/result.model";
 
