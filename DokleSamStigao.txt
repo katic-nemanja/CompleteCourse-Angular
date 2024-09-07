@@ -72,3 +72,9 @@
 75 - Adding a Header Component With An Image - gotovo
 76 - Adding a User Input Component - gotovo
 77 - Handling Form Submission - gotovo
+78 - Extracting Values with TwoWayBinding - gotovo
+79 - Calculating the Annual Investment Data - gotovo
+80 - CrossComponent Communication with Outputs - gotovo
+81 - Creating Using a Data Model - gotovo
+82 - Passing Data from Parent to Child with Inputs - gotovo
+83 - Outputting Data in a Table - gotovo

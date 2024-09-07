@@ -6,3 +6,10 @@ export interface Result {
     totalInterest: number,
     totalAmountInvested: number
 }
+
+export interface InputData{
+    initialInvest: number;
+    annualInvest: number;
+    expectedReturn: number;
+    duration: number;
+}

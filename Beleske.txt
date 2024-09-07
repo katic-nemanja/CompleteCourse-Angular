@@ -4,6 +4,9 @@ ng generate component <ime komponente> --skip-tests - ovo je varijanta u kojoj s
 
 CTRL + Space - IDE ce dati predloge automatskih funkcija
 
++<string varijabla>  - na ovaj nacin se vrsi konverzija iz Stringa u Number, npr: ime:string = '11'; broj:number = +ime; ovaj kod ce konvertovati string '11' u broj 11
+                     - zasto je ovo vazna tehnika, zato sve input kontrole daju string vrednosti
+
 @Input() avatar!:string; - uzvicnik govori da znamo da varijabla nema vrednost, ali da ce je dobiti u nekom trenutku
 @Input({required:true}) <ime varijable>?:string; - ! kaze Typescriptu da se nikada nece desiti da varijabla ima vrednost UNDEFINED
 @Input({required:true}) <ime varijable>?:string; - ? kaze Typescriptu da ova varijabla moze, a i ne mora imati vrednost i da sam sa tim upoznat

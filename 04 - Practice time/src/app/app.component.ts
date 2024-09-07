@@ -4,6 +4,7 @@ import { UserInputComponent } from './user-input/user-input.component';
 import { InvestmentResultsComponent } from './investment-results/investment-results.component';
 import { calculateInvestmentResults } from './investment-results/investment-results.service';
 import { Result } from './shared/result.model';
+import { InputData } from './shared/result.model';
 
 @Component({
   selector: 'app-root',
@@ -16,15 +17,12 @@ export class AppComponent {
   isResultVisible = false;
   rezultatZaPrikaz!: Array<Result>;
 
-  izracunaj = calculateInvestmentResults;
-
-
   isVisibleTrue(newStatus: boolean) {
     this.isResultVisible = newStatus;
   }
 
-  izracunajRezultat(rez: Array<Result>) {
-    this.rezultatZaPrikaz = rez;
+  dobijamUlaz(ulaz:InputData){
+    this.rezultatZaPrikaz = calculateInvestmentResults(ulaz);
   }
 
   get vratiRezultat(){
