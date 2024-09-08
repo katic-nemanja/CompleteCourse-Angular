@@ -21,10 +21,10 @@ export class UserInputComponent {
   private investmentService = inject(InvestmentResult);
 
   // Signal varijable
-  initialInvest = signal('0');
-  annualInvest = signal('0');
-  expectedReturn = signal('5');
-  duration = signal('10');
+  // initialInvest = signal('0');
+  // annualInvest = signal('0');
+  // expectedReturn = signal('5');
+  // duration = signal('10');
 
   ulaz = signal<InputData>({
     initialInvest: 0,
