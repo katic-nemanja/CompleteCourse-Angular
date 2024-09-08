@@ -1,13 +1,15 @@
 <app-header />
 
 <main>
-    <app-user-input (isVisible)="isVisibleTrue($event)" (ulazniPodaci)="dobijamUlaz($event)" />
+    <!-- stari kod sa koriscenjem emit-a
+    <app-user-input (isVisible)="isVisibleTrue($event)" (ulazniPodaci)="dobijamUlaz($event)" /> -->
+    <app-user-input (isVisible)="isVisibleTrue($event)" />
 </main>
 
 <div class="center">
     @if(isResultVisible){
         <article>
-            <app-investment-results [rezultat]="rezultatZaPrikaz()" />
+            <app-investment-results [rezultat]="rezultatZaPrikaz.getResultData()" />
         </article>
         }
         @else {

@@ -3,9 +3,8 @@ import { dummyTasks } from "../dummy-tasks";
 import { NewTask } from "./task/task.model";
 
 
-@Injectable({providedIn:'root'
+@Injectable({providedIn:'root'})
 
-})
 export class TasksService{
     private rndZadaci = dummyTasks;
 
