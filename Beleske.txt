@@ -11,6 +11,10 @@ CTRL + Space - IDE ce dati predloge automatskih funkcija
 @Input({required:true}) <ime varijable>?:string; - ! kaze Typescriptu da se nikada nece desiti da varijabla ima vrednost UNDEFINED
 @Input({required:true}) <ime varijable>?:string; - ? kaze Typescriptu da ova varijabla moze, a i ne mora imati vrednost i da sam sa tim upoznat
 
+ result = this.rezultatZaPrikaz.resultData.asReadonly(); asReadonly je metod za rad nad signalima koji prosledjuje kao parametar ReadOnly signal koji nije moguce promeniti 
+          iz klase kojoj se prosledjuje
+ 
+
 <ime varijable>?.name - ovo kaze Typescriptu da ako je varijabla definisana (ima vrednost), pristupi property-ju name, a ako nije definisana, koristi UNDEFINED
 
 @Input({required:true}) avatar!:string; - required:true ce svaki put u PARENT klasi ispaliti gresku ako zaboravimo da inicijalizujemo vrednost varijable "avatar"

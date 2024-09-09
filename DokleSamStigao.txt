@@ -1,3 +1,4 @@
+###02 - Angular Essentials Components Templates Services More
 9 - Module Introduction - gotovo
 10 - A New Starting Project Analyzing The Project Structure - gotovo
 11 - Understanding Components How Content Ends Up On The Screen - gotovo
@@ -53,7 +54,7 @@
 62 - Using localStorage for Data Storage - gotovo
 63 - Module Summary - gotovo
 
-03 - Working with modules
+###03 - Working with modules
 
 64 - Module Introduction - gotovo
 65 - A First Introduction To Angular Modules NgModule - gotovo
@@ -66,7 +67,7 @@
 72 - Creating More Complex Modulebased App Structures - gotovo
 
 
-04 - Angular Essentials Time To Practice
+###04 - Angular Essentials Time To Practice
 
 73 - Module Introduction Starting Project - gotovo
 75 - Adding a Header Component With An Image - gotovo
@@ -80,4 +81,9 @@
 83 - Outputting Data in a Table - gotovo
 84 - Formatting Output with a Pipe - gotovo
 85 - Using Signals Resetting The Form After Submission - gotovo
-86 - Using a Service for CrossComponent Communication
+86 - Using a Service for CrossComponent Communication - gotovo
+87 - Using Signals in Services - gotovo
+88 - Migrating to Angular Modules - gotovo
+89 - Module Summary - gotovo
+
+###05 - Debugging Angular Apps

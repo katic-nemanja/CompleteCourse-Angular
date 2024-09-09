@@ -8,11 +8,15 @@ export class InvestmentResult{
 
     // izlaz = output<Result>();
     // resultData = output<Array<Result>>();
-    resultData?:Array<Result>;
+    // resultData?:Array<Result>;
+
+    resultData = signal<Array<Result>|undefined>(undefined);
+
+
 
     calculateInvestmentResults(data:InputData) {
         console.log(data);
-        let annualData : Array<Result> = [];
+        let annualData = [];
         let investmentValue = data.initialInvest;
     
         for (let i = 0; i < data.duration; i++) {
@@ -31,7 +35,8 @@ export class InvestmentResult{
             });
         }
         console.log(annualData);
-        this.resultData = annualData;
+        this.resultData.set(annualData);
+        // this.resultData = annualData;
         // return annualData; 
     }
 
