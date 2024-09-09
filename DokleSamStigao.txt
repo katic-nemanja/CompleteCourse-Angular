@@ -87,3 +87,11 @@
 89 - Module Summary - gotovo
 
 ###05 - Debugging Angular Apps
+90 - Module Introduction - gotovo
+91 - Understanding Error Messages Fixing Errors - gotovo
+92 - Debugging Logical Errors with the Browser DevTools Breakpoints - gotovo
+93 - Exploring the Angular DevTools - gotovo
+
+
+###06 - The Basics
+96 - Module Introduction - gotovo
