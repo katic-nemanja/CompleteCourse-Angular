@@ -95,3 +95,5 @@
 
 ###06 - The Basics
 96 - Module Introduction - gotovo
+97 - How an Angular App gets Loaded and Started - gotovo
+98 - Components are Important - gotovo
