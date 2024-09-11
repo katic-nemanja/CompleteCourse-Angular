@@ -101,3 +101,9 @@
 100 - Understanding the Role of AppModule and Component Declaration - gotovo
 102 - Using Custom Components - gotovo
 103 - Creating Components with the CLI Nesting Components - gotovo
+104 - Working with Component Templates - gotovo
+105 - Working with Component Styles - gotovo
+106 - Fully Understanding the Component Selector - gotovo
+107 - OPTIONAL Assignment Solution - gotovo
+108 - What is Databinding - gotovo
+109 - String Interpolation - gotovo
