@@ -97,3 +97,7 @@
 96 - Module Introduction - gotovo
 97 - How an Angular App gets Loaded and Started - gotovo
 98 - Components are Important - gotovo
+99 - Creating a New Component - gotovo
+100 - Understanding the Role of AppModule and Component Declaration - gotovo
+102 - Using Custom Components - gotovo
+103 - Creating Components with the CLI Nesting Components - gotovo
