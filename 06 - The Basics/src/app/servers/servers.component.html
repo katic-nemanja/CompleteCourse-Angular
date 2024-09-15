@@ -1,6 +1,19 @@
-<button [disabled]="!allowNewServer" class="btn btn-primary">
+<label for="inpt">Unesite neki tekst:</label>
+<!-- <input type="text" name="inpt1" class="form-control" (input)="onServerUpdate($event)"> -->
+<input type="text" name="inpt" class="form-control" [(ngModel)]="serverName">
+
+<p>{{serverName}}</p>
+
+<button (click)="onServerCreation()" [disabled]="allowNewServer" class="btn btn-primary">
     Add new server
 </button>
 
-<app-server serverID="Server1" serverStatus="online" />
-<app-server serverID="Server2" serverStatus="offline" />
+<p *ngIf="isServerCreated; else noServer">Server je kreiran. Ime servera je: {{serverName}}</p>
+
+<ng-template #noServer>
+    <p>Server nije kreiran!!!</p>
+</ng-template>
+<div *ngIf="isServerCreated">
+    <app-server serverID="Server1" serverStatus="online" />
+    <app-server serverID="Server2" serverStatus="offline" />
+</div>

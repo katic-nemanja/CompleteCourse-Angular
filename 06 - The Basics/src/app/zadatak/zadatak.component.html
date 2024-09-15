@@ -1,0 +1,11 @@
+<div class="zadatak">
+    <label for="inpt1"></label>
+    <input type="text" name="inpt1" [(ngModel)]="userName">
+    <hr>
+
+    <div *ngIf="userName!=''">
+        <p>Korisnicko ime je: {{userName}}</p>
+        <hr>
+    </div>
+    <button [disabled]="userName===''" (click)="onBtnClick()">Klikni me ako prethodno uneses korisnicko ime</button>
+</div>

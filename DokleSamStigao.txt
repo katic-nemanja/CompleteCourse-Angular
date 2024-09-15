@@ -107,3 +107,17 @@
 107 - OPTIONAL Assignment Solution - gotovo
 108 - What is Databinding - gotovo
 109 - String Interpolation - gotovo
+110 - Property Binding - gotovo
+111 - Property Binding vs String Interpolation - gotovo
+112 - Event Binding - gotovo
+113 - Bindable Properties and Events - procitao
+114 - Passing and Using Data with Event Binding - gotovo
+115 - Important FormsModule is Required for TwoWayBinding - procitao
+116 - TwoWayDatabinding - gotovo
+117 - Combining all Forms of Databinding - gotovo
+118 - OPTIONAL Assignment Solution - uradjeno samostalno
+119 - Understanding Directives - gotovo
+120 - Using ngIf to Output Data Conditionally - gotovo
+121 - Enhancing ngIf with an Else Condition - gotovo
+122 - Angular 17 Alternative if Syntax - procitao
+123 - Styling Elements Dynamically with ngStyle
