@@ -121,3 +121,6 @@
 121 - Enhancing ngIf with an Else Condition - gotovo
 122 - Angular 17 Alternative if Syntax - procitao
 123 - Styling Elements Dynamically with ngStyle - gotovo
+124 - Applying CSS Classes Dynamically with ngClass - gotovo
+125 - Outputting Lists with ngFor - gotovo
+126 - Angular 17 Alternative for Syntax - procitao

@@ -10,7 +10,8 @@ import { NgIf, NgClass } from "@angular/common";
 
 export class ServerComponent {
     serverID!: string;
-    serverStatus: string;
+    serverStatus!: string;
+    @Input() serverName !:string;
 
     constructor() {
         this.serverStatus = Math.random() > 0.5 ? "online" : "offline";

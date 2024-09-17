@@ -14,7 +14,7 @@
     <p>Server nije kreiran!!!</p>
 </ng-template>
 <div *ngIf="isServerCreated">
-    <app-server />
-    <app-server />
-    <app-server />
+    <div *ngFor="let server of servers; index as i">
+        <app-server [serverName]="server"/>
+    </div>
 </div>
