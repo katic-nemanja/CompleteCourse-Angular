@@ -9,6 +9,15 @@ import { NgIf, NgClass } from "@angular/common";
 )
 
 export class ServerComponent {
-    @Input({required:true}) serverID!:number;
-    @Input({required:true}) serverStatus!:string;
+    serverID!: string;
+    serverStatus: string;
+
+    constructor() {
+        this.serverStatus = Math.random() > 0.5 ? "online" : "offline";
+        this.serverID = 'Server ' + Math.floor((Math.random() * 100));
+    }
+
+    getColor() {
+        return this.serverStatus === 'online' ? 'lightseagreen' : 'lightcoral';
+    }
 }

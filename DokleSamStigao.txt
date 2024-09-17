@@ -120,4 +120,4 @@
 120 - Using ngIf to Output Data Conditionally - gotovo
 121 - Enhancing ngIf with an Else Condition - gotovo
 122 - Angular 17 Alternative if Syntax - procitao
-123 - Styling Elements Dynamically with ngStyle
+123 - Styling Elements Dynamically with ngStyle - gotovo
