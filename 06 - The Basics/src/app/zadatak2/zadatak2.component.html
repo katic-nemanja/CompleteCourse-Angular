@@ -2,8 +2,12 @@
 <p *ngIf="isUkljuceno">Tekst za skrivanje</p>
 
 <div *ngFor="let item of clickLog; index as i">
-    <p [ngStyle]="{'background-color': i>=4?'lightblue':'transparent'}" [ngClass]="{beliTekst:i>=4}">{{item.vreme |
+    <!-- <p [ngStyle]="{'background-color': i>=4?'lightblue':'transparent'}" [ngClass]="{beliTekst:i>=4}">{{item.vreme |
         date:'hh:mm:ss'
         }} i
-        {{item.klik}}</p>
+        {{item.klik}}</p> -->
+
+    <p [ngStyle]="{backgroundColor: i>=4?'lightblue':'transparent'}" [ngClass]="{beliTekst:i>=4}">
+        {{item.vreme | date:'hh:mm:ss'}} i {{item.klik}}
+    </p>
 </div>
