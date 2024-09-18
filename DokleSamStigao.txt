@@ -129,4 +129,5 @@
 
 
 ###7 - Course Project The Basics
-129 - Project Introduction
+129 - Project Introduction - gotovo
+130 - Planning the App - gotovo
