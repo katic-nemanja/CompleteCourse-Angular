@@ -124,3 +124,5 @@
 124 - Applying CSS Classes Dynamically with ngClass - gotovo
 125 - Outputting Lists with ngFor - gotovo
 126 - Angular 17 Alternative for Syntax - procitao
+127 - OPTIONAL Assignment Solution - uradjeno samostalno
+128 - Getting the Index when using ngFor - gotovo
