@@ -126,3 +126,7 @@
 126 - Angular 17 Alternative for Syntax - procitao
 127 - OPTIONAL Assignment Solution - uradjeno samostalno
 128 - Getting the Index when using ngFor - gotovo
+
+
+###7 - Course Project The Basics
+129 - Project Introduction
