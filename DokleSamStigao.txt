@@ -131,3 +131,6 @@
 ###7 - Course Project The Basics
 129 - Project Introduction - gotovo
 130 - Planning the App - gotovo
+131 - Creating a New App Correctly - procitao
+132 - Setting up the Application - gotovo
+133 - Creating the Components - gotovo
