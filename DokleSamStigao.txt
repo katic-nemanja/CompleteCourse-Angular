@@ -134,3 +134,7 @@
 131 - Creating a New App Correctly - procitao
 132 - Setting up the Application - gotovo
 133 - Creating the Components - gotovo
+134 - Using the Components - gotovo
+135 - Adding a Navigation Bar - gotovo
+136 - Alternative NonCollapsable Navigation Bar - procitao
+137 - Creating a Recipe Model - gotovo
