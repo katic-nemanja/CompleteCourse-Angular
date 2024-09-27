@@ -140,3 +140,7 @@
 137 - Creating a Recipe Model - gotovo
 138 - Adding Content to the Recipes Components - gotovo
 139 - Outputting a List of Recipes with ngFor - gotovo
+140 - Displaying Recipe Details - gotovo
+141 - Working on the ShoppingListComponent - gotovo
+142 - Creating an Ingredient Model - gotovo
+143 - Creating and Outputting the Shopping List - gotovo
