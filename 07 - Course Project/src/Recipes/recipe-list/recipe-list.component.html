@@ -1,1 +1,15 @@
-<app-recipe-item />
+<div>
+    <p>Dodaj nov recept</p>
+    <button class="btn btn-primary">Novi recept</button>
+    <hr>
+</div>
+
+<div *ngFor="let recept of recipe; track $index">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <app-recipe-item [inRecept]="recept"/>
+        </div>
+    </div>
+    
+</div>

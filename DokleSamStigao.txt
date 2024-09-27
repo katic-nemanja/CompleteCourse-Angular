@@ -138,3 +138,5 @@
 135 - Adding a Navigation Bar - gotovo
 136 - Alternative NonCollapsable Navigation Bar - procitao
 137 - Creating a Recipe Model - gotovo
+138 - Adding Content to the Recipes Components - gotovo
+139 - Outputting a List of Recipes with ngFor - gotovo

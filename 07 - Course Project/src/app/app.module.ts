@@ -25,7 +25,7 @@ import { RecipesComponent } from '../Recipes/recipes.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
