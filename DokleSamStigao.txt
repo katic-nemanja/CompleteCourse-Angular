@@ -146,3 +146,12 @@
 143 - Creating and Outputting the Shopping List - gotovo
 144 - Adding a Shopping List Edit Section - gotovo
 145 - Wrap Up Next Steps - gotovo
+
+###8 - Debugging
+146 - Understanding Angular Error Messages - gotovo
+147 - Debugging Code in the Browser Using Sourcemaps - gotovo
+
+###9 - Components Databinding Deep Dive
+148 - Module Introduction - gotovo
+149 - About This Section - procitao
+150 - Splitting Apps into Components
