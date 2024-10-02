@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-cockpit',
@@ -6,9 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './cockpit.component.css'
 })
 export class CockpitComponent {
-  serverElements = [];
+  serverElements: any = [];
   newServerName = '';
   newServerContent = '';
+
+  @Output() lista = new EventEmitter<{ type: string, name: string, content: string }>;
 
 
   onAddServer() {
@@ -17,6 +19,7 @@ export class CockpitComponent {
       name: this.newServerName,
       content: this.newServerContent
     });
+    this.lista.emit(this.serverElements);
   }
 
   onAddBlueprint() {
@@ -25,5 +28,6 @@ export class CockpitComponent {
       name: this.newServerName,
       content: this.newServerContent
     });
+    this.lista.emit(this.serverElements);
   }
 }

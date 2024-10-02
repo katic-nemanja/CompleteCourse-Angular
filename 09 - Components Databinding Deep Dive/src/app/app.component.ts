@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  serverElements = [];
-  newServerName = '';
-  newServerContent = '';
+  serverElements: any = [];
+
+
+
+  onAdd(lista: Array<{ type: string, name: string, content: string }>) {
+    this.serverElements = lista;
+  }
 }

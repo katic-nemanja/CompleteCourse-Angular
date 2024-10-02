@@ -1,5 +1,9 @@
 <div class="container">
-  <app-cockpit />
+  <app-cockpit (lista)="onAdd($event)" />
   <hr>
-
+  <div class="row">
+    <div class="col-xs-12">
+      <app-server-element />
+    </div>
+  </div>
 </div>
