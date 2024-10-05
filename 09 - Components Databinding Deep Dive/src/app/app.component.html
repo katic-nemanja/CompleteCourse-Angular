@@ -1,9 +1,11 @@
 <div class="container">
-  <app-cockpit (lista)="onAdd($event)" />
+  <app-cockpit 
+  (serverCreated)="onServerCreated($event)"
+  (blueprintCreated)="onBluePrintCreated($event)" />
   <hr>
   <div class="row">
     <div class="col-xs-12">
-      <app-server-element />
+      <app-server-element [serverElements]="serverElements"/>
     </div>
   </div>
 </div>

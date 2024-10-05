@@ -154,4 +154,14 @@
 ###9 - Components Databinding Deep Dive
 148 - Module Introduction - gotovo
 149 - About This Section - procitao
-150 - Splitting Apps into Components
+150 - Splitting Apps into Components - gotovo
+151 - Property Event Binding Overview - gotovo
+152 - Binding to Custom Properties - gotovo
+153 - Assigning an Alias to Custom Properties - gotovo
+154 - Binding to Custom Events - gotovo
+155 - Assigning an Alias to Custom Events - gotovo
+156 - Custom Property and Event Binding Summary - gotovo
+157 - Understanding View Encapsulation - gotovo
+158 - More on View Encapsulation - gotovo
+159 - Using Local References in Templates - gotovo
+160 - ViewChild in Angular 8 - procitao

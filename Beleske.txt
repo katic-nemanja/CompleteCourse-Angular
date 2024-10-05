@@ -20,8 +20,10 @@ CTRL + Space - IDE ce dati predloge automatskih funkcija
 @Input({required:true}) avatar!:string; - required:true ce svaki put u PARENT klasi ispaliti gresku ako zaboravimo da inicijalizujemo vrednost varijable "avatar"
 
 @Input() <ime varijable>:string | undefined; - ovo je kod koji ce prihvatiti svaku vrednost varijable, jer ili ce biti tipa STRING ili UNDEFINED (ova vrednost je samo kada nema vrednost)
+@Input('alijas') <ime varijable>:string; - preko alijasa mozemo da iniciramo u parent komponenti vrednost Input varijable bez pozivanja naziva varijable vec pisuci alijas
 
 @Output() select = new EventEmitter<string>(); <string> predstavlja genericki tip podatka koji mozemo da prosledimo EventEmmiteru da bi samo takav podatak bio moguc za emitovanje
+@Output('alijas') <ime varijable> = new EventEmitter<string>(); - preko alijasa mozemo da osluskujemo event u parent componentu ne navodeci naziv varijable, vec pisuci alijas
 
 <app-user [avatar]="userList[0].avatar" [name]="userList[0].name" [id]="userList[0].id"
         (select)="onSelectUser($event)" /> - $event objekat je objekat koji moze da nosi podatak koji @Output() <varijabla> emituje
