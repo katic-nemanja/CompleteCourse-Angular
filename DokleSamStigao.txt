@@ -165,3 +165,4 @@
 158 - More on View Encapsulation - gotovo
 159 - Using Local References in Templates - gotovo
 160 - ViewChild in Angular 8 - procitao
+161 - Getting Access to the Template DOM with ViewChild - gotovo
