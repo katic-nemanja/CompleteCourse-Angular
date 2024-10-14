@@ -166,3 +166,6 @@
 159 - Using Local References in Templates - gotovo
 160 - ViewChild in Angular 8 - procitao
 161 - Getting Access to the Template DOM with ViewChild - gotovo
+162 - Projecting Content into Components with ngcontent - gotovo
+163 - lifecycle - procitao
+163 - Understanding the Component Lifecycle - u toku
