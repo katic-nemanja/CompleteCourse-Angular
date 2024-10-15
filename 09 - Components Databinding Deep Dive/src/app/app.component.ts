@@ -6,22 +6,33 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  serverElements:Array<{ type: string, name: string, content: string }> = [];
+  counter: number = 0;
+  serverElements: Array<{ type: string, name: string, content: string }> = [{ type: 'server', name: 'test', content: 'test' }];
 
-  onServerCreated(server:{ name: string, content: string }){
+  onServerCreated(server: { name: string, content: string }) {
     this.serverElements.push({
       type: 'server',
       name: server.name,
       content: server.content
     });
   }
-  
 
-  onBluePrintCreated(blueprint:{ name: string, content: string }){
+
+  onBluePrintCreated(blueprint: { name: string, content: string }) {
     this.serverElements.push({
-        type: 'blueprint',
-        name: blueprint.name,
-        content: blueprint.content
-      });
+      type: 'blueprint',
+      name: blueprint.name,
+      content: blueprint.content
+    });
   }
+
+  onChangeFirstElement() {
+    this.serverElements[0].name = `Promenjeno ime ${this.counter} puta`;
+    this.counter++;
+  }
+
+  onDeleteFirstElement() {
+    this.serverElements.splice(0, 1);
+  }
+
 }

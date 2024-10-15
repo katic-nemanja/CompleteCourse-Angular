@@ -168,4 +168,7 @@
 161 - Getting Access to the Template DOM with ViewChild - gotovo
 162 - Projecting Content into Components with ngcontent - gotovo
 163 - lifecycle - procitao
-163 - Understanding the Component Lifecycle - u toku
+163 - Understanding the Component Lifecycle - gotovo
+164 - Seeing Lifecycle Hooks in Action - gotovo
+165 - Lifecycle Hooks and Template Access - gotovo
+166 - ContentChild in Angular 8 - procitao
