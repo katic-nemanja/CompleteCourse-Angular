@@ -174,4 +174,7 @@
 166 - ContentChild in Angular 8 - procitao
 167 - Getting Access to ngcontent with ContentChild - gotovo
 168 - Wrap Up - gotovo
-169 - OPTIONAL Assignment Solution
+169 - OPTIONAL Assignment Solution - gotovo
+
+###10 - Course Project Components Databinding
+170 - Introduction - gotovo

@@ -9,6 +9,7 @@ export class GameControlComponent implements OnInit {
   @Output() intervalFired = new EventEmitter<number>();
   interval;
   lastNumber = 0;
+  isDisabled:boolean = false;
 
   constructor() { }
 
@@ -16,6 +17,7 @@ export class GameControlComponent implements OnInit {
   }
 
   onStartGame() {
+    this.isDisabled = true;
     this.interval = setInterval(() => {
       this.intervalFired.emit(this.lastNumber + 1);
       this.lastNumber++;
@@ -23,6 +25,7 @@ export class GameControlComponent implements OnInit {
   }
 
   onPauseGame() {
+    this.isDisabled = false;
     clearInterval(this.interval);
   }
 
