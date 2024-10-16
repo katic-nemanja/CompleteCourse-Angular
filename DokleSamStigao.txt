@@ -172,3 +172,6 @@
 164 - Seeing Lifecycle Hooks in Action - gotovo
 165 - Lifecycle Hooks and Template Access - gotovo
 166 - ContentChild in Angular 8 - procitao
+167 - Getting Access to ngcontent with ContentChild - gotovo
+168 - Wrap Up - gotovo
+169 - OPTIONAL Assignment Solution
