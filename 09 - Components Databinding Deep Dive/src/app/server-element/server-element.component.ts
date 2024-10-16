@@ -48,7 +48,7 @@ export class ServerElementComponent implements OnInit,
 
   ngOnInit(): void {
     console.log('ngOnInit je pozvan');
-    console.log('Content: ' + this.paragraf.nativeElement.textContent);
+    // console.log('Content: ' + this.paragraf.nativeElement.textContent);
   }
 
   ngDoCheck(): void {
@@ -58,9 +58,8 @@ export class ServerElementComponent implements OnInit,
 
   ngAfterContentInit(): void {
     console.log('ngAfterContentInit je ispaljen!!!');
-    console.log('Text: ' + this.heading.nativeElement.textContent);
+    // console.log('Text: ' + this.heading.nativeElement.textContent);
     console.log('Content: ' + this.paragraf.nativeElement.textContent);
-
   }
 
   ngAfterContentChecked(): void {
