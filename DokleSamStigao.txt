@@ -178,3 +178,5 @@
 
 ###10 - Course Project Components Databinding
 170 - Introduction - gotovo
+171 - Adding Navigation with Event Binding and ngIf - gotovo
+172 - Passing Recipe Data with Property Binding

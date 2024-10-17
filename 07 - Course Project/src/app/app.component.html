@@ -1,11 +1,10 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <app-header />
+      <app-header (ruter)="onNavigate($event)" />
       <hr>
-      
-     <app-recipes />
-     <app-shopping-list/>
+      <app-recipes *ngIf="loadedFeature=='recept'" />
+      <app-shopping-list *ngIf="loadedFeature=='shopping'" />
     </div>
   </div>
 </div>
