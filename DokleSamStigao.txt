@@ -3,7 +3,7 @@
 10 - A New Starting Project Analyzing The Project Structure - gotovo
 11 - Understanding Components How Content Ends Up On The Screen - gotovo
 12 - Creating a First Custom Component - gotovo
-13 - Optional JavaScript Refresher Classes Properties More.html - procitao
+13 - Optional JavaScript Refresher Classes Properties More.html - procitano
 14 - Configuring the Custom Component - gotovo
 15 - Using the Custom Component - gotovo
 16 - Styling the Header Component Adding An Image - gotovo
@@ -110,20 +110,20 @@
 110 - Property Binding - gotovo
 111 - Property Binding vs String Interpolation - gotovo
 112 - Event Binding - gotovo
-113 - Bindable Properties and Events - procitao
+113 - Bindable Properties and Events - procitano
 114 - Passing and Using Data with Event Binding - gotovo
-115 - Important FormsModule is Required for TwoWayBinding - procitao
+115 - Important FormsModule is Required for TwoWayBinding - procitano
 116 - TwoWayDatabinding - gotovo
 117 - Combining all Forms of Databinding - gotovo
 118 - OPTIONAL Assignment Solution - uradjeno samostalno
 119 - Understanding Directives - gotovo
 120 - Using ngIf to Output Data Conditionally - gotovo
 121 - Enhancing ngIf with an Else Condition - gotovo
-122 - Angular 17 Alternative if Syntax - procitao
+122 - Angular 17 Alternative if Syntax - procitano
 123 - Styling Elements Dynamically with ngStyle - gotovo
 124 - Applying CSS Classes Dynamically with ngClass - gotovo
 125 - Outputting Lists with ngFor - gotovo
-126 - Angular 17 Alternative for Syntax - procitao
+126 - Angular 17 Alternative for Syntax - procitano
 127 - OPTIONAL Assignment Solution - uradjeno samostalno
 128 - Getting the Index when using ngFor - gotovo
 
@@ -131,12 +131,12 @@
 ###7 - Course Project The Basics
 129 - Project Introduction - gotovo
 130 - Planning the App - gotovo
-131 - Creating a New App Correctly - procitao
+131 - Creating a New App Correctly - procitano
 132 - Setting up the Application - gotovo
 133 - Creating the Components - gotovo
 134 - Using the Components - gotovo
 135 - Adding a Navigation Bar - gotovo
-136 - Alternative NonCollapsable Navigation Bar - procitao
+136 - Alternative NonCollapsable Navigation Bar - procitano
 137 - Creating a Recipe Model - gotovo
 138 - Adding Content to the Recipes Components - gotovo
 139 - Outputting a List of Recipes with ngFor - gotovo
@@ -153,7 +153,7 @@
 
 ###9 - Components Databinding Deep Dive
 148 - Module Introduction - gotovo
-149 - About This Section - procitao
+149 - About This Section - procitano
 150 - Splitting Apps into Components - gotovo
 151 - Property Event Binding Overview - gotovo
 152 - Binding to Custom Properties - gotovo
@@ -164,14 +164,14 @@
 157 - Understanding View Encapsulation - gotovo
 158 - More on View Encapsulation - gotovo
 159 - Using Local References in Templates - gotovo
-160 - ViewChild in Angular 8 - procitao
+160 - ViewChild in Angular 8 - procitano
 161 - Getting Access to the Template DOM with ViewChild - gotovo
 162 - Projecting Content into Components with ngcontent - gotovo
-163 - lifecycle - procitao
+163 - lifecycle - procitano
 163 - Understanding the Component Lifecycle - gotovo
 164 - Seeing Lifecycle Hooks in Action - gotovo
 165 - Lifecycle Hooks and Template Access - gotovo
-166 - ContentChild in Angular 8 - procitao
+166 - ContentChild in Angular 8 - procitano
 167 - Getting Access to ngcontent with ContentChild - gotovo
 168 - Wrap Up - gotovo
 169 - OPTIONAL Assignment Solution - gotovo
@@ -179,4 +179,12 @@
 ###10 - Course Project Components Databinding
 170 - Introduction - gotovo
 171 - Adding Navigation with Event Binding and ngIf - gotovo
-172 - Passing Recipe Data with Property Binding
+172 - Passing Recipe Data with Property Binding - gotovo
+173 - Passing Data with Event and Property Binding Combined - gotovo
+174 - Make sure you have FormsModule added - procitano
+175 - Allowing the User to Add Ingredients to the Shopping List - gotovo
+
+
+###11 - Directives Deep Dive
+176 - Module Introduction - gotovo
+177 - ngFor and ngIf Recap 

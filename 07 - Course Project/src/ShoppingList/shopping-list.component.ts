@@ -12,4 +12,9 @@ export class ShoppingListComponent {
     new Ingredients('Sljiva',8),
     new Ingredients('Musmula',54),
   ];
+
+
+  newIngredient(sastojak:Ingredients){
+    this.ingredient.push(sastojak);
+  }
 }

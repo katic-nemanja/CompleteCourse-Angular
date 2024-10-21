@@ -1,11 +1,11 @@
 <div class="row">
     <div class="col-xs-12">
-        <img src="" class="img-responsive" alt="">
+        <img [src]="inRecept.imagePath" class="img-responsive" [alt]="inRecept.name">
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <h1>Naziv recepta</h1>
+        <h1>{{inRecept.name}}</h1>
     </div>
 </div>
 
@@ -24,12 +24,12 @@
 
 <div class="row">
     <div class="col-xs-12">
-        <p>Description</p>
+        <p>{{inRecept.description}}</p>
     </div>
 </div>
 
 <div class="row">
     <div class="col-xs-12">
-        <p>Ingredients</p>
+        <p>Sastojci</p>
     </div>
 </div>
