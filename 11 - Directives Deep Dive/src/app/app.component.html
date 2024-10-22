@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <button class="btn btn-primary" (click)="onlyOdd = !onlyOdd">Only show odd numbers</button>
+      <br><br>
+      <ul class="list-group" *ngFor="let number of numbers">
+        <div *ngIf="onlyOdd">
+          <li class="list-group-item" [ngClass]="{nepar: number%2>0}"
+            [ngStyle]="{backgroundColor: number %2>0 ? 'yellow' : 'green'}" *ngIf="number%2>0">{{number}}</li>
+        </div>
+        <div *ngIf="!onlyOdd">
+          <li class="list-group-item" [ngClass]="{par: number%2==0}"
+            [ngStyle]="{backgroundColor: number %2==0 ? 'green' : 'yellow'}" *ngIf="number%2==0">{{number}}</li>
+        </div>
+      </ul>
+    </div>
+  </div>
+  <p appBasicHighlight>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, corporis modi officia necessitatibus voluptatem id
+    non sequi quisquam sed excepturi, explicabo inventore eligendi perspiciatis sint alias quis repudiandae fugiat ab!
+  </p>
+</div>
+
+
+
+<ng-template #samoNepar>
+  <p>Only odd</p>
+</ng-template>

@@ -187,4 +187,6 @@
 
 ###11 - Directives Deep Dive
 176 - Module Introduction - gotovo
-177 - ngFor and ngIf Recap 
+177 - ngFor and ngIf Recap - gotovo
+178 - ngClass and ngStyle Recap - gotovo
+179 - Creating a Basic Attribute Directive - gotovo
