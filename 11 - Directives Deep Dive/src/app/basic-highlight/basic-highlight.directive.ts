@@ -13,7 +13,7 @@ export class BasicHighlightDirective implements OnInit {
 
     ngOnInit(): void {
         this.elementSelected.nativeElement.style.backgroundColor = 'lightblue';
-        this.elementSelected.nativeElement.style.marginTop = '20px';
-        this.elementSelected.nativeElement.style.paddingTop = '20px';
+        this.elementSelected.nativeElement.style.margin = '20px 0 20px 0';
+        this.elementSelected.nativeElement.style.padding = '20px';
     }
 }
