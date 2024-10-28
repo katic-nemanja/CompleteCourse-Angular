@@ -1,6 +1,7 @@
 ng generate component <ime komponente> - kreira novu Angular komponentu
 ng g c <ime komponente> - skracena verzija - kreira novu Angular komponentu
 ng generate component <ime komponente> --skip-tests - ovo je varijanta u kojoj se kreira komponenta bez kreiranja fajla za automatski test
+ng generate directive <ime direktive> - kreira novu Angular direktivu
 
 CTRL + Space - IDE ce dati predloge automatskih funkcija
 

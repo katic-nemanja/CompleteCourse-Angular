@@ -190,3 +190,8 @@
 177 - ngFor and ngIf Recap - gotovo
 178 - ngClass and ngStyle Recap - gotovo
 179 - Creating a Basic Attribute Directive - gotovo
+180 - Using the Renderer to build a Better Attribute Directive - gotovo
+182 - Using HostListener to Listen to Host Events - gotovo
+183 - Using HostBinding to Bind to Host Properties - gotovo
+184 - Binding to Directive Properties - gotovo
+185 - What Happens behind the Scenes on Structural Directives - gotovo

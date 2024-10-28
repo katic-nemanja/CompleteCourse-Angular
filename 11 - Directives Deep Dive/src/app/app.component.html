@@ -6,11 +6,11 @@
       <ul class="list-group" *ngFor="let number of numbers">
         <div *ngIf="onlyOdd">
           <li class="list-group-item" [ngClass]="{nepar: number%2>0}"
-            [ngStyle]="{backgroundColor: number %2>0 ? 'yellow' : 'green'}" *ngIf="number%2>0">{{number}}</li>
+            [ngStyle]="{backgroundColor: number %2==0 ? 'green':'yellow'}" *ngIf="number%2==0">{{number}}</li>
         </div>
         <div *ngIf="!onlyOdd">
-          <li class="list-group-item" [ngClass]="{par: number%2==0}"
-            [ngStyle]="{backgroundColor: number %2==0 ? 'green' : 'yellow'}" *ngIf="number%2==0">{{number}}</li>
+          <li class="list-group-item" [ngClass]="{par: number%2>0}"
+            [ngStyle]="{backgroundColor: number %2>0 ? 'yellow': 'green'}" *ngIf="number%2>0">{{number}}</li>
         </div>
       </ul>
     </div>
@@ -19,7 +19,21 @@
     Paragraf kome je dodata Custom attribute direktiva
   </p>
 
-  <p appBetterHighlight>
+  <p *appUnless="onlyOdd">
+    Prikaz ako su izabrani samo neparni
+  </p>
+
+  <div *appUnless="onlyOdd">
+    <li class="list-group-item" *ngFor="let nepar of oddNumbers">{{nepar}}</li>
+  </div>
+
+  <div *appUnless="!onlyOdd">
+    <li class="list-group-item" *ngFor="let broj of numbers">
+      <p *ngIf="broj%2==0">{{broj}}</p>
+    </li>
+  </div>
+
+  <p appBetterHighlight [defaultColor]="'yellow'" [highlightColor]="'red'">
     Paragraf kome je dodata poboljsana attribute direktiva koristeci Renderer2 i ElementRef
   </p>
 </div>
