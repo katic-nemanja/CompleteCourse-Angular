@@ -2,3 +2,65 @@ img{
     width: 500px;
     height: 500px;
 }
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+}
+
+ul li {
+    display: list-item;
+}
+
+
+li {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: coral;
+}
+
+li:hover {
+    background-color: rgb(247, 221, 211);
+    color: rgb(146, 67, 67);
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.dropdown {
+    height: 35px;
+    font-size: 1.6rem;
+    line-height: 35px;
+    border-radius: 10px;
+    color:white;
+    text-align: end;
+    position: relative;
+    /* font-size: 1.5rem; */
+    /* background-color: coral; */
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(124, 124, 216);
+}
+
+
+.dropdown-content {
+    position:absolute;
+    width: auto;
+    top:32px;
+    right:  0;
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+    /* border: 2px solid green; */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

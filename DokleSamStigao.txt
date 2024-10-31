@@ -195,3 +195,9 @@
 183 - Using HostBinding to Bind to Host Properties - gotovo
 184 - Binding to Directive Properties - gotovo
 185 - What Happens behind the Scenes on Structural Directives - gotovo
+186 - Building a Structural Directive - gotovo
+187 - Understanding ngSwitch - gotovo
+
+
+###12 - Course Project Directives
+188 - Building and Using a Dropdown Directive

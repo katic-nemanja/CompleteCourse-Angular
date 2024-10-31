@@ -28,14 +28,25 @@
   </div>
 
   <div *appUnless="!onlyOdd">
-    <li class="list-group-item" *ngFor="let broj of numbers">
-      <p *ngIf="broj%2==0">{{broj}}</p>
-    </li>
+    <div *ngFor="let broj of numbers">
+      <li class="list-group-item" *ngIf="broj%2==0">
+        <p>{{broj}}</p>
+      </li>
+    </div>
+
   </div>
 
   <p appBetterHighlight [defaultColor]="'yellow'" [highlightColor]="'red'">
     Paragraf kome je dodata poboljsana attribute direktiva koristeci Renderer2 i ElementRef
   </p>
+
+
+  <div [ngSwitch]="value">
+    <p *ngSwitchCase="10">Vrednost je 10</p>
+    <p *ngSwitchCase="50">Vrednost je 50</p>
+    <p *ngSwitchCase="100">Vrednost je 100</p>
+    <p *ngSwitchDefault>Podrazumevana vrednost</p>
+  </div>
 </div>
 
 
