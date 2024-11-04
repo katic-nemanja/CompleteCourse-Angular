@@ -11,31 +11,27 @@
 
 
 
-<div class="dropdown">
-
-    <button class="btn-primary"><span>Manage recipe </span><span class="black">&#9660;</span></button>
-    <div class="dropdown-content">
-        <ul>
-            <li><a href="#">To shopping list</a></li>
-            <li><a href="#">Edit Recipe</a></li>
-            <li><a href="#">Delete Recipe</a></li>
-        </ul>
-
-    </div>
-</div>
 
 <div class="row">
     <div class="col-xs-12">
-        <div>
-            <button class="drp">Manage recipe <span class="caret"></span></button>
-            <ul>
-                <li><a href="#">To shopping list</a></li>
-                <li><a href="#">Edit Recipe</a></li>
-                <li><a href="#">Delete Recipe</a></li>
+        <div appDropdown class="btn-group">
+            <button class="btn btn-primary dropdown-toggle">Manage recipe <span class="caret"></span></button>
+
+            <ul class="dropdown-menu">
+                <li #prvi><a href="#" (click)="kliknuto(prvi)">To shopping list</a></li>
+                <li #drugi><a href="#" (click)="kliknuto(drugi)">Edit Recipe</a></li>
+                <li #treci><a href="#" (click)="kliknuto(treci)">Delete Recipe</a></li>
             </ul>
+
         </div>
     </div>
 </div>
+
+<div class="dropdown">
+
+
+</div>
+
 
 <div class="row">
     <div class="col-xs-12">

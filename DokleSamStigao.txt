@@ -200,4 +200,4 @@
 
 
 ###12 - Course Project Directives
-188 - Building and Using a Dropdown Directive
+188 - Building and Using a Dropdown Directive - gotovo
