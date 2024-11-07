@@ -201,3 +201,7 @@
 
 ###12 - Course Project Directives
 188 - Building and Using a Dropdown Directive - gotovo
+
+
+###13 - Using Services Dependency Injection
+190 - Module Introduction
