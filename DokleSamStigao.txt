@@ -204,4 +204,9 @@
 
 
 ###13 - Using Services Dependency Injection
-190 - Module Introduction
+190 - Module Introduction - gotovo
+191 - Why would you Need Services - gotovo
+192 - Creating a Logging Service - gotovo
+193 - Injecting the Logging Service into Components - gotovo
+194 - Alternative Injection Syntax - procitano
+195 - Creating a Data Service
